@@ -22,9 +22,9 @@ import java.util.List;
  *               -- 2022/10/25
  */
 public class AllConfig {
-    public static final String VxAppId = "微信的APPID";
-    public static final String VxAppSecret = "微信的密钥";
-    public static final String WeatherKey = "高德地图key";
+    public static final String VxAppId = "wx82b45c9ef9a3c684";
+    public static final String VxAppSecret = "cda36de6346f320d5cb3cd81251ada48";
+    public static final String WeatherKey = "5d233cbedda6639258187384afb935bc";
     public static final String WeatherKey_HeFeng = "和风天气KEY";
 
     //下列所有填写的  true 为开启， false 为不开启 ，#XXXXXX是颜色16进制HEX码（不知道颜色16进制HEX码可以百度）
@@ -77,13 +77,13 @@ public class AllConfig {
         //  注意：每个用户信息的最后一项不需要加逗号！！！
         //new BirthDay()里面代表[年]、[月]、[日]、[是否是农历(true为农历、false为公历)]、[是否统计天数(true为统计，false为倒计时)]、[倒计时到0天提示信息(如果类型为统计可以不填)]
         userList.add(getUser(
-                "这个人的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
+                "oKpz556_kRn9WiCX60STBojBoNFI", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "sKDrjwhK2kAi3c9idb1QXxZEuRvs-zwbGIfuHQs6O8I", //要给这个人发送的模板ID
+                "静静宝贝", //咋称呼这个人
+                "河南省周口市西华县", //这个人的详细地址
+                "西华县", //这个人在的城市
+                new BirthDay(2004,2,24,true,"静静宝贝生日快乐！！"),
+                new BirthDay(2003,3,26,true,"生日快乐哦~~"),
                 new BirthDay(2020,7,8,true,true),
                 new BirthDay(2020,7,8,true,false,"周年快乐！！！")
         ));
